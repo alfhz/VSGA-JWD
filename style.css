@@ -1,0 +1,265 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFFFFF;
+    width: 100vw;
+}
+
+/* HOME STYLE */
+.home_container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+}
+.bg_home {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-height: 900px;
+    object-fit: cover;
+    z-index: 1;
+}
+nav {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(46, 64, 50, 0.5);
+}
+.navbar_container{
+    min-width: 90%;
+}
+.navbar-nav .nav-link {
+    color: white;
+    font-size: 0.9rem; 
+    font-weight: 500;
+}
+.navbar-nav .nav-link:hover {
+    color: #A6ACA7;
+}
+.home_content {
+    position: absolute;
+    width: 94%;
+    top: 30%;
+    margin : 0 6%;
+    z-index: 3; 
+    color: white;
+}
+.home_content .title_1 {
+    font-size: 3.6rem;
+    font-weight: 600;
+    letter-spacing: 0.4rem;
+}
+.home_content .title_2 {
+    font-size: 3.375rem;
+    font-weight: 500;
+}
+.home_content .description {
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+.line_home {
+    margin: 2rem 0;
+}
+.add {
+    margin-bottom: 1.5rem;
+}
+.sum_1{
+    font-size: 2.8125rem;
+    font-weight: 600;
+    color: #E39833;
+}
+.sum_2{
+    font-size: 0.9rem; 
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; 
+}
+.learn_more{
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #E39833;
+}
+.learn_more:hover {
+    color: #A6ACA7;
+}
+.sum_1:hover {
+    color: #A6ACA7;
+}
+@media (max-width: 768px) {
+    .navbar-nav .nav-link {
+        font-size: 0.6rem; 
+    }
+}
+
+
+/* ABOUT STYLE */
+.about_container {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    min-width: 90%;
+}
+.about_content_1 .title_about {
+    font-size: 2.7rem;
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: 0.4rem;
+    margin: 0;
+    margin-top: 10%;
+}
+.about_content_1 .content {
+    font-size: 0.9rem; 
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0.12rem;
+    text-align: justify;
+    margin: 8% 0;
+}
+.about_content_1 .activities {
+    font-size: 0.9rem; 
+    font-weight: 600;
+    color: #000000;
+    text-align: justify;
+    margin: 0;
+    margin-bottom: 10%;
+}
+.about_content_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.video{
+    width: 85%;
+    transform-origin: center center;
+}
+.carousel_about {
+    max-height: 300px;
+    object-fit: cover;
+    width: 100%;
+}
+.carousel_1{
+    width: 85%;
+}
+.carousel_1:hover{
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.5s ease-in-out;
+}
+.video:hover{
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.5s ease-in-out;
+}
+.activities_name:hover {
+    color: #A6ACA7;
+}
+
+/* FACILITIES STYLE */
+.facilities_container{
+    width: 100vw;
+    height: 100%;
+    background-color: #2E4032;
+    text-align: center;
+    min-width: 90%;
+}
+.facilities_content{
+    margin: 1% 6%;
+    padding: 2% 0;
+}
+.img_facilities:hover{
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.5s ease-in-out;
+}
+.title_facilities {
+    display: inline-block;
+    font-size: 2.7rem;
+    font-weight: 600;
+    color: #ffffff;
+    letter-spacing: 0.4rem;
+    margin-bottom: 1%;
+}
+.area_name{
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+/* PACKAGES STYLE */
+.packages_container{
+    background-color: #ffffff;
+    margin: 1% 6%;
+    min-width: 90%;
+}
+.card_in{
+    min-width: 400px;
+}
+.title_packages{
+    display: inline-block;
+    font-size: 2.7rem;
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: 0.4rem;
+    margin-bottom: 1%;
+}
+.card{
+    min-width: 350px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+}
+.btn_book{
+    background-color: #E39833;
+    color: white;
+    width: 100%;
+}
+.btn_book:hover{
+    background-color: #E39833;
+    color: white;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease-in-out;
+}
+.card-title{
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #000000;
+}
+.card-text{
+    font-size: 0.725rem;
+    font-weight: 400;
+    color: #000000;
+}
+
+/* CONTACT STYLE */
+.contact_container {
+    position: relative;
+    z-index: 2;
+    min-width: 90%;
+    background-color: #2E4032;
+    padding: 4% 0;
+}
+.contact_content {
+    text-align: left;
+}
+.title_contact {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #ffffff;
+    letter-spacing: 0.4rem;
+    margin-bottom: 3rem; 
+}
+.text_contact {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+.copyright {
+    display: block;
+    margin-top: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
