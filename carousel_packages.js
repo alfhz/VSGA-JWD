@@ -187,7 +187,6 @@ document.addEventListener("DOMContentLoaded", function() {
         carousel.appendChild(prevControl);
         carousel.appendChild(nextControl);
 
-        // Create card body
         const cardBody = document.createElement("div");
         cardBody.classList.add("card-body");
 
@@ -212,12 +211,10 @@ document.addEventListener("DOMContentLoaded", function() {
         cardBody.appendChild(ul);
         cardBody.appendChild(bookButton);
 
-        // Append everything to the card element
         cardElement.appendChild(carousel);
         cardElement.appendChild(cardBody);
         col.appendChild(cardElement);
 
-        // Append card to container
         cardsContainer.appendChild(col);
     });
 });
