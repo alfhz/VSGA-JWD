@@ -10,9 +10,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 "Price doesn't include tent and vehicle parking"
             ],
             images: [
-                "media/camp_1.jpeg",
-                "media/camp_2.jpeg",
-                "media/camp_3.jpeg"
+                "../media/camp_1.jpeg",
+                "../media/camp_2.jpeg",
+                "../media/camp_3.jpeg"
             ],
             price: "Rp. 65,000/person"
         },
@@ -25,9 +25,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 "Price doesn't include fuel and extra mileage"
             ],
             images: [
-                "media/campervan_1.jpeg",
-                "media/campervan_2.jpeg",
-                "media/campervan_3.jpeg"
+                "../media/campervan_1.jpeg",
+                "../media/campervan_2.jpeg",
+                "../media/campervan_3.jpeg"
             ],
             price: "Rp. 120,000/person"
         },
@@ -40,9 +40,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 'Free bundle of firewood'
             ],
             images: [
-                'media/glamping_1.jpeg',
-                'media/glamping_2.jpeg',
-                'media/glamping_3.jpeg'
+                '../media/glamping_1.jpeg',
+                '../media/glamping_2.jpeg',
+                '../media/glamping_3.jpeg'
             ],
             price: 'Rp. 1,250,000/room'
         },
@@ -55,9 +55,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 'Free parking for 1 vehicle'
             ],
             images: [
-                'media/luxury_1.jpeg',
-                'media/luxury_2.jpeg',
-                'media/luxury_3.jpeg'
+                '../media/luxury_1.jpeg',
+                '../media/luxury_2.jpeg',
+                '../media/luxury_3.jpeg'
             ],
             price: 'Rp. 550,000/tent'
         },
@@ -67,9 +67,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 'Our hot springs feature several pools of various sizes, all sourced directly from the natural hot spring of Mount Patuha. Provide therapeutic benefits, promoting relaxation and rejuvenation.'
             ],
             images: [
-                'media/hot_spring_1.jpeg',
-                'media/hot_spring_2.jpeg',
-                'media/hot_spring_3.jpeg'
+                '../media/hot_spring_1.jpeg',
+                '../media/hot_spring_2.jpeg',
+                '../media/hot_spring_3.jpeg'
             ],
             price: 'Rp. 35,000/person'
         },
@@ -79,9 +79,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 'Engage in different game scenarios, from capture the flag to last man standing, and enjoy an enjoy an exhilarating and memorable adventure.'
             ],
             images: [
-                'media/pb_1.jpeg',
-                'media/pb_2.jpeg',
-                'media/pb_3.jpg'
+                '../media/pb_1.jpeg',
+                '../media/pb_2.jpeg',
+                '../media/pb_3.jpg'
             ],
             price: 'Rp. 135,000/person'
         }

@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
     const carouselData = [
-        { src: "media/gallery_1.jpg", title: "GALLERY", subtitle: "Camp" },
-        { src: "media/gallery_2.jpg", title: "GALLERY", subtitle: "Campervan" },
-        { src: "media/gallery_3.jpg", title: "GALLERY", subtitle: "Gathering" },
-        { src: "media/gallery_4.jpg", title: "GALLERY", subtitle: "Hot Spring" },
-        { src: "media/gallery_5.jpeg", title: "GALLERY", subtitle: "Outbond" },
+        { src: "../media/gallery_1.jpg", title: "GALLERY", subtitle: "Camp" },
+        { src: "../media/gallery_2.jpg", title: "GALLERY", subtitle: "Campervan" },
+        { src: "../media/gallery_3.jpg", title: "GALLERY", subtitle: "Gathering" },
+        { src: "../media/gallery_4.jpg", title: "GALLERY", subtitle: "Hot Spring" },
+        { src: "../media/gallery_5.jpeg", title: "GALLERY", subtitle: "Outbond" },
     ];
 
     const indicatorsContainer = document.getElementById("carouselIndicators");
